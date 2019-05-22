@@ -118,12 +118,12 @@ h6,
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #435e8a;
   color: #fff
 }
 
 .btn-primary:active {
-  background: #542cb7 !important
+  background: #435e8a !important
 }
 
 .btn-primary:hover {
@@ -144,7 +144,7 @@ h6,
 
 .btn-transparent:active,
 .btn-transparent:hover {
-  color: #41228e
+  color: #435e8a
 }
 
 body {
@@ -153,7 +153,7 @@ body {
 }
 
 ::selection {
-  background: #542cb7;
+  background: #435e8a;
   color: #fff
 }
 
@@ -201,11 +201,11 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #41228e !important
+  color: #435e8a !important
 }
 
 a:hover {
-  color: #41228e
+  color: #435e8a
 }
 
 .slick-slide {
@@ -260,7 +260,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #41228e !important
+  color: #435e8a !important
 }
 
 .text-color {
@@ -392,7 +392,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #41228e;
+  border-color: #435e8a;
   outline: 0;
   box-shadow: none !important
 }
@@ -432,7 +432,7 @@ textarea.form-control {
 @media(max-width:991px) {
   .navigation {
     padding: 20px;
-    background: #41228e
+    background: #435e8a
   }
 }
 
@@ -579,7 +579,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover {
-  background: #41228e
+  background: #435e8a
 }
 
 .hover-bg-primary:hover * {
@@ -588,7 +588,7 @@ textarea.form-control {
 
 .active-bg-primary {
   transition: .3s ease;
-  background: #41228e
+  background: #435e8a
 }
 
 .active-bg-primary * {
@@ -728,7 +728,7 @@ blockquote {
   display: inline-block;
   padding: 10px 20px;
   background: #eaeaea;
-  border-left: 2px solid #41228e;
+  border-left: 2px solid #435e8a;
   font-style: italic;
   font-size: 22px
 }
