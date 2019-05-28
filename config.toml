@@ -1,4 +1,4 @@
-baseURL = "https://master.d2uw4n28hq77cy.amplifyapp.com"
+baseURL = "http://localhost:1313"
 languageCode = "en-us"
 title = "SPIC'N SPAN"
 theme = "kross-hugo"
@@ -30,15 +30,11 @@ summaryLength = "10"
 # navigation
 [menu]
     
-  [[menu.main]]
-  name = "About"
-  URL = "contact"
-  weight = 2
   
  
 [params]
 logo = ""
-home = "Home"
+home = ""
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -50,7 +46,7 @@ googleAnalitycsID = "Your ID"
   enable = true
 
   [params.contact]
-  enable = true
+  enable = false
   formAction = "#" #contact form works with formspree.io
 
   [params.footer]

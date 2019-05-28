@@ -88,9 +88,32 @@ service:
       content : "Cooldown and monitoring period"
       highlighted : false
 
+    - title : "June 2022"
+      icon : "ti-control-stop"
+      content : "Decomissioning"
+      highlighted : false
+      # service
+projectContacts:
+  enable : true
+  item : 
+    - title : "May 2019 - November 2019 "
+      icon : "ti-plug"
+      content : "Equipment and electrode installation"
+      highlighted : true
+
+    - title : "November 2019 - May 2020"
+      icon : "ti-stats-up"
+      content : "ERH system startup and operation"
+      highlighted : false
+
     - title : "May 2020 - May 2022"
       icon : "ti-stats-down"
       content : "Cooldown and monitoring period"
+      highlighted : false
+
+    - title : "June 2022"
+      icon : "ti-control-stop"
+      content : "Decomissioning"
       highlighted : false
 
 # portfolio
@@ -134,36 +157,20 @@ testimonial:
 # client slider
 clientSlider:
   enable : false
+  
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "#"
       
     - logo : "images/clients-logo/client-logo-2.png"
       URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
-      
+          
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "#"
       
     - logo : "images/clients-logo/client-logo-2.png"
       URL : "#"
       
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
 
 # blog
 blog:

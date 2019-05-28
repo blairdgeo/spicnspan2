@@ -14,11 +14,7 @@
     </div>
 
     <!-- social icon -->
-    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-      {{ range .Site.Data.homepage.banner.socialLinks }}
-      <li class="mb-3"><a class="text-white" href="{{.URL}}"><i class="{{.icon}}"></i></a></li>
-      {{ end }}
-    </ul>
+
     <!-- /social icon -->
   </section>
   <!-- /hero area -->
@@ -166,6 +162,28 @@
   <!-- /services -->
   {{ end }}
 
+  {{ if .Site.Data.homepage.projectContacts.enable }}
+  <!-- services -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">PROJECT CONTACTS</h2>
+        </div>
+        <div class="card-footer bg-white">
+          <h4 class="card-title">Washington State Department of Ecoloy, Toxics Cleanup Program</h4>
+          <h5><a href= "tel:+14256497134">(412)-649-7134</a></h5>
+        </div>
+        <br>
+        <div class="card-footer bg-white">
+          <h4 class="card-title">Aspect Consulting, LLC, Jeremy Porter</h4>
+          <h5>Email: <a href="jporter@aspectconsulting.com">jporter@aspectconsulting.com</a> | <a href= "tel:+2068385838">(206)-838-5835</a></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /services -->
+  {{ end }}
 
   {{ if .Site.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
