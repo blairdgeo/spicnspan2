@@ -275,7 +275,7 @@
 
 		  {{ if eq $.Site.LanguagePrefix "/zh" }}
 				<h5>{{ .Site.Data.homepage.projectDescription.zh.email | safeHTML }} <a href="jporter@aspectconsulting.com">jporter@aspectconsulting.com</a> | <a href= "tel:+2068385838">(206)-838-5835</a></h5>
-		   { else if eq $.Site.LanguagePrefix "/es" }}
+		  {{ else if eq $.Site.LanguagePrefix "/es" }}
 				<h5>{{ .Site.Data.homepage.projectDescription.es.email | safeHTML }} <a href="jporter@aspectconsulting.com">jporter@aspectconsulting.com</a> | <a href= "tel:+2068385838">(206)-838-5835</a></h5>
 		  {{ else }}
 				<h5>{{ .Site.Data.homepage.projectDescription.en.email | safeHTML }} <a href="jporter@aspectconsulting.com">jporter@aspectconsulting.com</a> | <a href= "tel:+2068385838">(206)-838-5835</a></h5>
