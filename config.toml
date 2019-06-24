@@ -3,6 +3,17 @@ languageCode = "en-us"
 title = "SPIC'N SPAN"
 theme = "kross-hugo"
 summaryLength = "10"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    title = "SPIC'N SPAN"
+    languageName = "English"
+    weight = 1
+  [languages.zh]
+    title = "SPIC'N SPAN"
+    languageName = "Mandarin"
+    weight = 2
 
 # Plugins
 [params.plugins]

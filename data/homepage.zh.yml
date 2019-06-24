@@ -1,59 +1,24 @@
 # banner
 banner:
-    en:
-        title : "SPIC'N SPAN"
-        subtitle: "Environmental Cleanup Project"
-        socialLinks:
-        - icon : "ti-facebook"
-          URL : "#"
+  title : "SPIC'N SPAN"
+  subtitle: "环境清理项目"
+  socialLinks:
+    - icon : "ti-facebook"
+      URL : "#"
 
-        - icon : "ti-instagram"
-          URL : "#"
+    - icon : "ti-instagram"
+      URL : "#"
 
-        - icon : "ti-dribbble"
-          URL : "#"
+    - icon : "ti-dribbble"
+      URL : "#"
 
-        - icon : "ti-twitter"
-          URL : "#"
-    zh:
-        title : "SPIC'N SPAN"
-        subtitle: "环境清理项目"
-        socialLinks:
-        - icon : "ti-facebook"
-          URL : "#"
-
-        - icon : "ti-instagram"
-          URL : "#"
-
-        - icon : "ti-dribbble"
-          URL : "#"
-
-        - icon : "ti-twitter"
-          URL : "#"
+    - icon : "ti-twitter"
+      URL : "#"
 
 projectDescription:
-    en:
-        title: "Project Description"
-        content: "The purpose of the project is to remove subsurface contamination related to releases from a former dry cleaner. Electrical resistance heating technology will be used to remediate the subsurface contamination. Cleanup will also facilitate future redevelopment of the Spic’N Span property."
-        where: "Where is it?"
-        backgroundTitle: "BACKGROUND AND PROPERTY HISTORY"
-        backgroundContent: "Years of dry cleaner operation on the property have resulted in releases of contaminants including PCE (“perc”) and mineral spirits into the soil and groundwater beneath the building. The contaminants have migrated beneath the neighboring property to the north, which is currently a parking lot owned by KeyBank and, also to the south east into the Maynard Avenue South right-of-way."
-        timeline: "PROJECT TIMELINE"
-        projectContacts: "PROJECT CONTACTS"
-        ecologyContact: "Washington State Department of Ecoloy, Toxics Cleanup Program"
-        aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
-        emailText: "Email"
-    zh:
-        title: "项目描述"
-        content: "该项目的目的是消除与以前干洗店排放有关的地下污染。电阻加热技术将用于修复地下污染。清理工作也将促进Spic'N Span物业的未来重建。"
-        where: "它在哪里？"
-        backgroundTitle: "背景和财产历史"
-        backgroundContent: "多年的干净清洁操作已导致污染物释放，包括PCE（“perc”）和矿物精油进入建筑物下方的土壤和地下水。这些污染物已经迁移到邻近的北部地区，这个地区目前是KeyBank拥有的一个停车场，也是东南部的Maynard Avenue南部的一个停车场。"
-        timeline: "项目时间表"
-        projectContacts: "项目联系"
-        ecologyContact: "华盛顿州Ecoloy部门，有毒物质清理计划"
-        aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
-        emailText: "电子邮件"
+    title: "项目描述"
+    content: "该项目的目的是消除与以前干洗店排放有关的地下污染。电阻加热技术将用于修复地下污染。清理工作也将促进Spic'N Span物业的未来重建。"
+   
 
 # about
 about:
@@ -110,9 +75,9 @@ education:
       academy : "Cardiff School"
 
 # service
-services:
+service:
   enable : true
-  en :
+  item :
     - title : "May 2019 - November 2019 "
       icon : "ti-plug"
       content : "Equipment and electrode installation"
@@ -133,28 +98,6 @@ services:
       content : "Decomissioning"
       highlighted : false
       # service
-  zh:
-  - title : "2019年5月 -  2019年11月"
-    icon : "ti-plug"
-    content : "设备和电极安装"
-    highlighted : true
-
-  - title : "2019年11月至2020年5月"
-    icon : "ti-stats-up"
-    content : "ERH系统启动和运行"
-    highlighted : false
-
-  - title : "2020年5月至2022年5月"
-    icon : "ti-stats-down"
-    content : "冷却时间和监测期"
-    highlighted : false
-
-  - title : "2022年6月"
-    icon : "ti-control-stop"
-    content : "退役"
-    highlighted : false
-    # service
-
 projectContacts:
   enable : true
   item :
