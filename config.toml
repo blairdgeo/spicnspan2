@@ -1,6 +1,6 @@
 baseURL = "https://spicnspan.aspectconsulting.com"
 languageCode = "en-us"
-title = "SPIC'N SPAN"
+title = "SPIC'N SPAN CLEANERS"
 theme = "kross-hugo"
 summaryLength = "10"
 
@@ -12,6 +12,8 @@ summaryLength = "10"
   URL = "plugins/bootstrap/bootstrap.min.css"
   [[params.plugins.css]]
   URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/local/main.css"
   [[params.plugins.css]]
   URL = "plugins/themify-icons/themify-icons.css"
 
@@ -26,12 +28,12 @@ summaryLength = "10"
   URL = "plugins/shuffle/shuffle.min.js"
 
 
-  
+
 # navigation
 [menu]
-    
-  
- 
+
+
+
 [params]
 logo = ""
 home = ""
