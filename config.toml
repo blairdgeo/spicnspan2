@@ -1,6 +1,6 @@
 baseURL = "https://spicnspan.aspectconsulting.com"
 languageCode = "en-us"
-title = "SPIC'N SPAN CLEANERS"
+title = "SPIC'N SPAN"
 theme = "kross-hugo"
 summaryLength = "10"
 
