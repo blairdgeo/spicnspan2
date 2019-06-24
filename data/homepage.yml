@@ -30,6 +30,21 @@ banner:
 
         - icon : "ti-twitter"
           URL : "#"
+    es:
+        title : "SPIC'N SPAN"
+        subtitle: "Proyecto de limpieza ambiental"
+        socialLinks:
+        - icon : "ti-facebook"
+          URL : "#"
+
+        - icon : "ti-instagram"
+          URL : "#"
+
+        - icon : "ti-dribbble"
+          URL : "#"
+
+        - icon : "ti-twitter"
+          URL : "#"
 
 projectDescription:
     en:
@@ -54,6 +69,18 @@ projectDescription:
         ecologyContact: "华盛顿州Ecoloy部门，有毒物质清理计划"
         aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
         emailText: "电子邮件"
+    es:
+        title: "Descripción del Proyecto"
+        content: "El propósito del proyecto es eliminar la contaminación del subsuelo relacionada con las liberaciones de una antigua tintorería. Se utilizará tecnología de calentamiento por resistencia eléctrica para remediar la contaminación del subsuelo. La limpieza también facilitará la futura remodelación de la propiedad Spic’N Span."
+        where: "¿Dónde está?"
+        backgroundTitle: "ANTECEDENTES Y HISTORIA DE LA PROPIEDAD"
+        backgroundContent: "Los años de operación de la tintorería en la propiedad han dado lugar a emisiones de contaminantes, como PCE (“perc”) y alcoholes minerales en el suelo y las aguas subterráneas debajo del edificio. Los contaminantes han migrado debajo de la propiedad vecina hacia el norte, que actualmente es un estacionamiento propiedad de KeyBank y, también hacia el sureste, hacia el derecho de paso de Maynard Avenue South."
+        timeline: "LÍNEA DE TIEMPO DEL PROYECTO"
+        projectContacts: "CONTACTOS DEL PROYECTO"
+        ecologyContact: "Departamento de Ecoloy del Estado de Washington, Programa de Limpieza de Tóxicos"
+        aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
+        emailText: "Email"
+    
 
 # about
 about:
@@ -112,6 +139,26 @@ education:
 # service
 services:
   enable : true
+  es :
+    - title : "Mayo 2019 - Noviembre 2019"
+      icon : "ti-plug"
+      content : "Instalación de equipos y electrodos."
+      highlighted : true
+
+    - title : "Noviembre 2019 - Mayo 2020"
+      icon : "ti-stats-up"
+      content : "Arranque y operación del sistema ERH"
+      highlighted : false
+
+    - title : "Mayo 2020 - Mayo 2022"
+      icon : "ti-stats-down"
+      content : "Período de enfriamiento y monitoreo"
+      highlighted : false
+
+    - title : "Junio ​​de 2022"
+      icon : "ti-control-stop"
+      content : "Desmantelamiento"
+      highlighted : false
   en :
     - title : "May 2019 - November 2019 "
       icon : "ti-plug"

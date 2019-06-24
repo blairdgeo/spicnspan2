@@ -13,7 +13,11 @@ defaultContentLanguageInSubdir = true
   [languages.zh]
     title = "SPIC'N SPAN"
     languageName = "Mandarin"
-    weight = 2
+    weight = 2	
+  [languages.es]
+    title = "SPIC'N SPAN"
+    languageName = "Spanish"
+    weight = 3
 
 # Plugins
 [params.plugins]
