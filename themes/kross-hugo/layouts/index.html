@@ -261,12 +261,11 @@
 
           <h5><a href= "tel:+14256497134">(412)-649-7134</a></h5>
         </div>
-
         <div class="card-footer bg-white">
 
 		  {{ if eq $.Site.LanguagePrefix "/zh" }}
 				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.zh.aspectContact | safeHTML }}</h4>
-         {{ else if eq $.Site.LanguagePrefix "/es" }}
+          {{ else if eq $.Site.LanguagePrefix "/es" }}
 				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.es.aspectContact | safeHTML }}</h4>
 		  {{ else }}
 				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.en.aspectContact | safeHTML }}</h4>
@@ -281,8 +280,7 @@
 				<h5>{{ .Site.Data.homepage.projectDescription.en.email | safeHTML }} <a href="jporter@aspectconsulting.com">jporter@aspectconsulting.com</a> | <a href= "tel:+2068385838">(206)-838-5835</a></h5>
 		  {{ end }}
 
-
-        </div>
+</div>
       </div>
     </div>
   </section>

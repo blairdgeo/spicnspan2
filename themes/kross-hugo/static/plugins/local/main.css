@@ -1,18 +1,29 @@
-.navbar-brand {
+/*.navbar-brand {
 	font-size: 20pt;
-}
+}*/
+
 
 .font-tertiary 
 {
 	text-align: center;
-	font-size: 30pt;
 }
 
 .cardrow {
 	background: #f4ece6;
-	padding: 10px;
 }
 
 .cardrow-footer {
 	background: #f4ece6;
+}
+
+.hero-area {
+    padding: 150px 0 200px !important;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-area {
+    padding: 100px 0 200px !important;
+    position: relative;
+}
 }
