@@ -183,11 +183,11 @@
       <div class="row">
         <div class="col-12 text-center">
 		  {{ if eq $.Site.LanguagePrefix "/zh" }}
-          <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.zh.timeline | safeHTML }}</h2>
+          <h2 class="section-title2">{{ .Site.Data.homepage.projectDescription.zh.timeline | safeHTML }}</h2>
 		{{ else if eq $.Site.LanguagePrefix "/es" }}
-          <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.es.timeline | safeHTML }}</h2>
+          <h2 class="section-title2">{{ .Site.Data.homepage.projectDescription.es.timeline | safeHTML }}</h2>
 		  {{ else }}
-          <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.en.timeline | safeHTML }}</h2>
+          <h2 class="section-title2">{{ .Site.Data.homepage.projectDescription.en.timeline | safeHTML }}</h2>
 		{{ end }}
         </div>
 
@@ -242,11 +242,11 @@
       <div class="row">
         <div class="col-lg-12 text-center">
          {{ if eq $.Site.LanguagePrefix "/zh" }}
-				 <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.zh.projectContacts | safeHTML }}</h2>
+				 <h2 class="section-title2">{{ .Site.Data.homepage.projectDescription.zh.projectContacts | safeHTML }}</h2>
          {{ else if eq $.Site.LanguagePrefix "/es" }}
-				 <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.es.projectContacts | safeHTML }}</h2>
+				 <h2 class="section-title2">{{ .Site.Data.homepage.projectDescription.es.projectContacts | safeHTML }}</h2>
 		  {{ else }}
-				 <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.en.projectContacts | safeHTML }}</h2>
+				 <h2 class="section-title2">{{ .Site.Data.homepage.projectDescription.en.projectContacts | safeHTML }}</h2>
 		  {{ end }}
 
         </div>

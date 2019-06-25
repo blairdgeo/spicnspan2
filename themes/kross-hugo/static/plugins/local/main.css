@@ -6,6 +6,17 @@
 	width: 100%;
 }
 
+
+.section-title{
+	margin-bottom: 20px !important;
+}
+
+.section-title2 {
+	font-family: bwnistaint-xbd;
+	margin-bottom: 50px !important;
+	
+}
+
 .font-tertiary 
 {
 	text-align: center;
@@ -13,6 +24,7 @@
 
 .cardrow {
 	background: #f4ece6;
+	padding: 25px;
 }
 
 .cardrow-footer {
