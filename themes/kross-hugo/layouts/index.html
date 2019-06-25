@@ -226,10 +226,21 @@
           </div>
         </div>
       </div>
+	  
+	  
       {{ end }}
 		{{ end }}
 
       </div>
+	  <div class="col-12 text-center">
+		  {{ if eq $.Site.LanguagePrefix "/zh" }}
+          {{ .Site.Data.homepage.projectDescription.zh.scheduleNote | safeHTML }}
+		  {{ else if eq $.Site.LanguagePrefix "/es" }}
+          {{ .Site.Data.homepage.projectDescription.es.scheduleNote | safeHTML }}
+		  {{ else }}
+          {{ .Site.Data.homepage.projectDescription.en.scheduleNote | safeHTML }}
+		{{ end }}
+        </div>
     </div>
   </section>
   <!-- /services -->
@@ -250,6 +261,7 @@
 		  {{ end }}
 
         </div>
+		{{ if .Site.Data.homepage.projectDescription.ecologyEnable }}
         <div class="card-footer bg-white fullwidth">
           {{ if eq $.Site.LanguagePrefix "/zh" }}
 				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.zh.ecologyContact | safeHTML }}</h4>
@@ -261,6 +273,7 @@
 
           <h5><a href= "tel:+14256497134">(412)-649-7134</a></h5>
         </div>
+		{{ end }}
         <div class="card-footer bg-white">
 
 		  {{ if eq $.Site.LanguagePrefix "/zh" }}

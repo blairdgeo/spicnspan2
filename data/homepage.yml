@@ -47,9 +47,10 @@ banner:
           URL : "#"
 
 projectDescription:
+    ecologyEnable: false
     en:
         title: "Project Description"
-        content: "The purpose of the project is to remove subsurface contamination related to releases from a former dry cleaner. Electrical resistance heating technology will be used to remediate the subsurface contamination. Cleanup will also facilitate future redevelopment of the Spic’N Span property."
+        content: "The purpose of the project is to clean up contaminated soil and groundwater at the Spic’n Span property. Electrical resistance heating technology will be used to remove contamination from the subsurface, and the removed contamination will be treated above ground. Monitoring will be conducted to ensure the system is operating safely, contaminants are effectively treated, and the site cleanup goals are achieved."
         where: "Where is it?"
         backgroundTitle: "BACKGROUND AND PROPERTY HISTORY"
         backgroundContent: "Years of dry cleaner operation on the property have resulted in releases of contaminants including PCE (“perc”) and mineral spirits into the soil and groundwater beneath the building. The contaminants have migrated beneath the neighboring property to the north, which is currently a parking lot owned by KeyBank and, also to the south east into the Maynard Avenue South right-of-way."
@@ -58,9 +59,10 @@ projectDescription:
         ecologyContact: "Washington State Department of Ecology, Toxics Cleanup Program"
         aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
         emailText: "Email"
+        scheduleNote: "Note: Schedule is approximate and will depend on monitoring results."
     zh:
         title: "项目描述"
-        content: "该项目的目的是消除与以前干洗店排放有关的地下污染。电阻加热技术将用于修复地下污染。清理工作也将促进Spic'N Span物业的未来重建。"
+        content: "该项目的目的是清理Spic'n Span物业的污染土壤和地下水。电阻加热技术将用于去除地下污染物，并将去除的污染物在地面上进行处理。将进行监测以确保系统安全运行，有效处理污染物，并实现现场清理目标。"
         where: "它在哪里？"
         backgroundTitle: "背景和财产历史"
         backgroundContent: "多年的干净清洁操作已导致污染物释放，包括PCE（“perc”）和矿物精油进入建筑物下方的土壤和地下水。这些污染物已经迁移到邻近的北部地区，这个地区目前是KeyBank拥有的一个停车场，也是东南部的Maynard Avenue南部的一个停车场。"
@@ -69,9 +71,10 @@ projectDescription:
         ecologyContact: "华盛顿州生态系，有毒物质清理计划"
         aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
         emailText: "电子邮件"
+        scheduleNote: "注意：时间表是近似值，取决于监测结果。"
     es:
         title: "Descripción del Proyecto"
-        content: "El propósito del proyecto es eliminar la contaminación del subsuelo relacionada con las liberaciones de una antigua tintorería. Se utilizará tecnología de calentamiento por resistencia eléctrica para remediar la contaminación del subsuelo. La limpieza también facilitará la futura remodelación de la propiedad Spic’N Span."
+        content: "El propósito del proyecto es limpiar el suelo contaminado y el agua subterránea en la propiedad Spic’n Span. La tecnología de calentamiento por resistencia eléctrica se utilizará para eliminar la contaminación del subsuelo, y la contaminación eliminada se tratará por encima del suelo. El monitoreo se llevará a cabo para garantizar que el sistema funcione de manera segura, que los contaminantes se traten de manera efectiva y que se logren los objetivos de limpieza del sitio."
         where: "¿Dónde está?"
         backgroundTitle: "ANTECEDENTES Y HISTORIA DE LA PROPIEDAD"
         backgroundContent: "Los años de operación de la tintorería en la propiedad han dado lugar a emisiones de contaminantes, como PCE (“perc”) y alcoholes minerales en el suelo y las aguas subterráneas debajo del edificio. Los contaminantes han migrado debajo de la propiedad vecina hacia el norte, que actualmente es un estacionamiento propiedad de KeyBank y, también hacia el sureste, hacia el derecho de paso de Maynard Avenue South."
@@ -80,6 +83,7 @@ projectDescription:
         ecologyContact: "Departamento de Ecología del Estado de Washington, Programa de Limpieza de Tóxicos"
         aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
         emailText: "Email"
+        scheduleNote: "Nota: El calendario es aproximado y dependerá de los resultados del monitoreo."
     
 
 # about
@@ -95,7 +99,7 @@ projectIntro:
   enable : true
 
 projectBackground:
-  enable: true
+  enable: false
 
 # experience
 experience:
@@ -140,63 +144,63 @@ education:
 services:
   enable : true
   es :
-    - title : "Mayo 2019 - Noviembre 2019"
+    - title : "Junio ​​2019 - Diciembre 2019"
       icon : "ti-plug"
       content : "Instalación de equipos y electrodos."
       highlighted : true
 
-    - title : "Noviembre 2019 - Mayo 2020"
+    - title : "Diciembre 2019 - Junio ​​2020"
       icon : "ti-stats-up"
       content : "Arranque y operación del sistema ERH"
       highlighted : false
 
-    - title : "Mayo 2020 - Mayo 2022"
+    - title : "Junio ​​2020 - Junio ​​2022"
       icon : "ti-stats-down"
       content : "Período de enfriamiento y monitoreo"
       highlighted : false
 
-    - title : "Junio ​​de 2022"
+    - title : "Julio 2022"
       icon : "ti-control-stop"
       content : "Desmantelamiento"
       highlighted : false
   en :
-    - title : "May 2019 - November 2019 "
+    - title : "June 2019 - December 2019"
       icon : "ti-plug"
       content : "Equipment and electrode installation"
       highlighted : true
 
-    - title : "November 2019 - May 2020"
+    - title : "December 2019 - June 2020"
       icon : "ti-stats-up"
       content : "ERH system startup and operation"
       highlighted : false
 
-    - title : "May 2020 - May 2022"
+    - title : "June 2020 - June 2022"
       icon : "ti-stats-down"
       content : "Cooldown and monitoring period"
       highlighted : false
 
-    - title : "June 2022"
+    - title : "July 2022"
       icon : "ti-control-stop"
       content : "Decomissioning"
       highlighted : false
       # service
   zh:
-  - title : "2019年5月 -  2019年11月"
+  - title : "2019年6月至2019年12月"
     icon : "ti-plug"
     content : "设备和电极安装"
     highlighted : true
 
-  - title : "2019年11月至2020年5月"
+  - title : "2019年12月至2020年6月"
     icon : "ti-stats-up"
     content : "ERH系统启动和运行"
     highlighted : false
 
-  - title : "2020年5月至2022年5月"
+  - title : "2020年6月至2022年6月"
     icon : "ti-stats-down"
     content : "冷却时间和监测期"
     highlighted : false
 
-  - title : "2022年6月"
+  - title : "2022年7月"
     icon : "ti-control-stop"
     content : "退役"
     highlighted : false
