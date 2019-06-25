@@ -274,8 +274,9 @@
           <h5><a href= "tel:+14256497134">(412)-649-7134</a></h5>
         </div>
 		{{ end }}
-        <div class="card-footer bg-white">
-
+		
+        <div class="card-footer bg-white col-12">
+			<img class="special-img-class" src="/aspect_logo.png" style='width: 150px; margin-bottom: 20px'/>
 		  {{ if eq $.Site.LanguagePrefix "/zh" }}
 				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.zh.aspectContact | safeHTML }}</h4>
           {{ else if eq $.Site.LanguagePrefix "/es" }}
@@ -294,6 +295,49 @@
 		  {{ end }}
 
 </div>
+
+		<div class="card-footer bg-white col-12">
+		<img class="special-img-class" src="/TRS Logo.png" />
+		</div>
+	<div class="card-footer bg-white">
+
+		  {{ if eq $.Site.LanguagePrefix "/zh" }}
+				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.zh.trsContact1 | safeHTML }}</h4>
+          {{ else if eq $.Site.LanguagePrefix "/es" }}
+				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.es.trsContact1 | safeHTML }}</h4>
+		  {{ else }}
+				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.en.trsContact1 | safeHTML }}</h4>
+		  {{ end }}
+
+
+		  {{ if eq $.Site.LanguagePrefix "/zh" }}
+				<h5>{{ .Site.Data.homepage.projectDescription.zh.email | safeHTML }} <a href="jroot@thermalrs.com">jroot@thermalrs.com</a> | <a href= "tel:+2088705777">(208)-870-5777</a></h5>
+		  {{ else if eq $.Site.LanguagePrefix "/es" }}
+				<h5>{{ .Site.Data.homepage.projectDescription.es.email | safeHTML }} <a href="jroot@thermalrs.com">jroot@thermalrs.com</a> | <a href= "tel:+2088705777">(208)-870-5777</a></h5>
+		  {{ else }}
+				<h5>{{ .Site.Data.homepage.projectDescription.en.email | safeHTML }} <a href="jroot@thermalrs.com">jroot@thermalrs.com</a> | <a href= "tel:+2088705777">(208)-870-5777</a></h5>
+		  {{ end }}
+		  
+		  {{ if eq $.Site.LanguagePrefix "/zh" }}
+				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.zh.trsContact2 | safeHTML }}</h4>
+          {{ else if eq $.Site.LanguagePrefix "/es" }}
+				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.es.trsContact2 | safeHTML }}</h4>
+		  {{ else }}
+				<h4 class="card-title">{{ .Site.Data.homepage.projectDescription.en.trsContact2 | safeHTML }}</h4>
+		  {{ end }}
+
+
+		  {{ if eq $.Site.LanguagePrefix "/zh" }}
+				<h5>{{ .Site.Data.homepage.projectDescription.zh.email | safeHTML }} <a href="spistoll@thermalrs.com">spistoll@thermalrs.com</a> | <a href= "tel:+2062347603">(206)-234-7603</a></h5>
+		  {{ else if eq $.Site.LanguagePrefix "/es" }}
+				<h5>{{ .Site.Data.homepage.projectDescription.es.email | safeHTML }} <a href="spistoll@thermalrs.com">spistoll@thermalrs.com</a> | <a href= "tel:+2062347603">(206)-234-7603</a></h5>
+		  {{ else }}
+				<h5>{{ .Site.Data.homepage.projectDescription.en.email | safeHTML }} <a href="spistoll@thermalrs.com">spistoll@thermalrs.com</a> | <a href= "tel:+2062347603">(206)-234-7603</a></h5>
+		  {{ end }}	  
+		  
+
+	</div>
+
       </div>
     </div>
   </section>
