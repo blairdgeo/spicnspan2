@@ -3,6 +3,7 @@ banner:
     en:
         title : "SPIC'N SPAN"
         subtitle: "Environmental Cleanup Project"
+        resultsTitle: "Environmental Permits and Monitoring Results"
         socialLinks:
         - icon : "ti-facebook"
           URL : "#"
@@ -18,6 +19,7 @@ banner:
     zh:
         title : "SPIC'N SPAN"
         subtitle: "环境清理项目"
+        resultsTitle: "环境许可证和监测结果"
         socialLinks:
         - icon : "ti-facebook"
           URL : "#"
@@ -33,6 +35,7 @@ banner:
     es:
         title : "SPIC'N SPAN"
         subtitle: "Proyecto de limpieza ambiental"
+        resultsTitle: "Permisos ambientales y resultados de monitoreo"
         socialLinks:
         - icon : "ti-facebook"
           URL : "#"
@@ -62,6 +65,14 @@ projectDescription:
         trsContact2: "TRS, Steve Pistoll"
         emailText: "Email"
         scheduleNote: "Note: Schedule is approximate and will depend on monitoring results."
+        resultHeader1: "Environmental Permits"
+        resultContent1: ""
+        resultHeader2: "Air Monitoring Results"
+        resultContent2: ""
+        resultHeader3: "Water Discharge Monitoring Results"
+        resultContent3: ""
+        resultLink: "Environmental Permits and Monitoring Result"
+        
     zh:
         title: "项目描述"
         content: "该项目的目的是清理Spic'n Span物业的污染土壤和地下水。电阻加热技术将用于去除地下污染物，并将去除的污染物在地面上进行处理。将进行监测以确保系统安全运行，有效处理污染物，并实现现场清理目标。"
@@ -76,6 +87,14 @@ projectDescription:
         trsContact2: "TRS, Steve Pistoll"
         emailText: "电子邮件"
         scheduleNote: "注意：时间表是近似值，取决于监测结果。"
+        resultHeader1: "环境许可证"
+        resultContent1: ""
+        resultHeader2: "空气监测结果"
+        resultContent2: ""
+        resultHeader3: "排水监测结果"
+        resultContent3: ""
+        resultLink: "
+环境许可证和监测结果"
     es:
         title: "Descripción del Proyecto"
         content: "El propósito del proyecto es limpiar el suelo contaminado y el agua subterránea en la propiedad Spic’n Span. La tecnología de calentamiento por resistencia eléctrica se utilizará para eliminar la contaminación del subsuelo, y la contaminación eliminada se tratará por encima del suelo. El monitoreo se llevará a cabo para garantizar que el sistema funcione de manera segura, que los contaminantes se traten de manera efectiva y que se logren los objetivos de limpieza del sitio."
@@ -90,6 +109,13 @@ projectDescription:
         trsContact2: "TRS, Steve Pistoll"
         emailText: "Email"
         scheduleNote: "Nota: El calendario es aproximado y dependerá de los resultados del monitoreo."
+        resultHeader1: "Permisos ambientales"
+        resultContent1: ""
+        resultHeader2: "Resultados del monitoreo del aire"
+        resultContent2: ""
+        resultHeader3: "Resultados de monitoreo de descarga de agua"
+        resultContent3: ""
+        resultLink: "Permisos ambientales y resultados de monitoreo"
     
 
 # about

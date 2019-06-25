@@ -68,6 +68,15 @@
 		  {{ else }}
           <h4 class="card-title">{{ .Site.Data.homepage.projectDescription.en.content | safeHTML }} </h4>
 		{{ end }}
+		
+		{{ if eq $.Site.LanguagePrefix "/zh" }}
+          <a href="/zh/about">{{ .Site.Data.homepage.projectDescription.zh.resultLink | safeHTML }} </a>
+		{{ else if eq $.Site.LanguagePrefix "/es" }}
+          <a href="/es/about">{{ .Site.Data.homepage.projectDescription.es.resultLink | safeHTML }} </a>
+		  {{ else }} 
+          <a href="/en/about">{{ .Site.Data.homepage.projectDescription.en.resultLink | safeHTML }} </a>
+		{{ end }}
+		
         </div>
       </div>
     </div>
@@ -295,6 +304,10 @@
 		  {{ end }}
 
 </div>
+
+
+
+
 
 		<div class="card-footer bg-white col-12">
 		<img class="special-img-class" src="/TRS Logo.png" />
