@@ -68,21 +68,17 @@
 		  {{ else }}
           <h4 class="card-title">{{ .Site.Data.homepage.projectDescription.en.content | safeHTML }} </h4>
 		{{ end }}
+		</div>
 		
-		{{ if eq $.Site.LanguagePrefix "/zh" }}
-          <a href="/zh/about">{{ .Site.Data.homepage.projectDescription.zh.resultLink | safeHTML }} </a>
-		{{ else if eq $.Site.LanguagePrefix "/es" }}
-          <a href="/es/about">{{ .Site.Data.homepage.projectDescription.es.resultLink | safeHTML }} </a>
-		  {{ else }} 
-          <a href="/en/about">{{ .Site.Data.homepage.projectDescription.en.resultLink | safeHTML }} </a>
-		{{ end }}
-		
-        </div>
       </div>
     </div>
   </section>
   <!-- /Project Description -->
   {{ end }}
+  
+
+  
+ 
 
 
   <section class="section">
@@ -131,6 +127,7 @@
   </section>
   <!-- /Project Background -->
   {{ end }}
+  
 
   {{ if .Site.Data.homepage.experience.enable }}
   <!-- experience -->
@@ -184,7 +181,36 @@
   <!-- /education -->
   {{ end }}
 
-
+  {{ if .Site.Data.homepage.projectIntro.enable }}
+  <!-- Project Description -->
+  <section class="section">
+    <div class="container">
+      <div class="row cardrow">
+        <div class="col-lg-12 text-center">
+		{{ if eq $.Site.LanguagePrefix "/zh" }}
+          <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.zh.resultLinkTitle | safeHTML }}</h2>
+		{{ else if eq $.Site.LanguagePrefix "/es" }}
+          <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.es.resultLinkTitle | safeHTML }}</h2>
+		  {{ else }}
+          <h2 class="section-title">{{ .Site.Data.homepage.projectDescription.en.resultLinkTitle | safeHTML }}</h2>
+		{{ end }}
+        </div>
+         <div class="col-lg-12 text-center">
+		{{ if eq $.Site.LanguagePrefix "/zh" }}
+          <a class="section-title" style="font-size:18pt" href="/zh/about">{{ .Site.Data.homepage.projectDescription.zh.resultLink | safeHTML }} </a>
+		{{ else if eq $.Site.LanguagePrefix "/es" }}
+          <a class="section-title" style="font-size: 18pt" href="/es/about">{{ .Site.Data.homepage.projectDescription.es.resultLink | safeHTML }} </a>
+		  {{ else }} 
+          <a class="section-title" style="font-size: 18pt" href="/en/about">{{ .Site.Data.homepage.projectDescription.en.resultLink | safeHTML }} </a>
+		{{ end }}
+		
+        </div>
+		
+      </div>
+    </div>
+  </section>
+  <!-- /Project Description -->
+  {{ end }}
   {{ if .Site.Data.homepage.services.enable }}
   <!-- services -->
   <section class="section">

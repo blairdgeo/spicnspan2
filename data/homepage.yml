@@ -52,7 +52,7 @@ banner:
 projectDescription:
     ecologyEnable: false
     en:
-        title: "Project Description"
+        title: "What are we doing?"
         content: "The purpose of the project is to clean up contaminated soil and groundwater at the Spic’n Span property. Electrical resistance heating technology will be used to remove contamination from the subsurface, and the removed contamination will be treated above ground. Monitoring will be conducted to ensure the system is operating safely, contaminants are effectively treated, and the site cleanup goals are achieved."
         where: "Where is it?"
         backgroundTitle: "BACKGROUND AND PROPERTY HISTORY"
@@ -71,10 +71,11 @@ projectDescription:
         resultContent2: ""
         resultHeader3: "Water Discharge Monitoring Results"
         resultContent3: ""
-        resultLink: "Environmental Permits and Monitoring Result"
+        resultLinkTitle: "Project Progress"
+        resultLink: "Environmental Permits and Monitoring Results"
         
     zh:
-        title: "项目描述"
+        title: "我们在做什么？"
         content: "该项目的目的是清理Spic'n Span物业的污染土壤和地下水。电阻加热技术将用于去除地下污染物，并将去除的污染物在地面上进行处理。将进行监测以确保系统安全运行，有效处理污染物，并实现现场清理目标。"
         where: "它在哪里？"
         backgroundTitle: "背景和财产历史"
@@ -93,10 +94,10 @@ projectDescription:
         resultContent2: ""
         resultHeader3: "排水监测结果"
         resultContent3: ""
-        resultLink: "
-环境许可证和监测结果"
+        resultLinkTitle: "项目进展"
+        resultLink: "环境许可证和监测结果"
     es:
-        title: "Descripción del Proyecto"
+        title: "¿Que estamos haciendo?"
         content: "El propósito del proyecto es limpiar el suelo contaminado y el agua subterránea en la propiedad Spic’n Span. La tecnología de calentamiento por resistencia eléctrica se utilizará para eliminar la contaminación del subsuelo, y la contaminación eliminada se tratará por encima del suelo. El monitoreo se llevará a cabo para garantizar que el sistema funcione de manera segura, que los contaminantes se traten de manera efectiva y que se logren los objetivos de limpieza del sitio."
         where: "¿Dónde está?"
         backgroundTitle: "ANTECEDENTES Y HISTORIA DE LA PROPIEDAD"
@@ -115,6 +116,7 @@ projectDescription:
         resultContent2: ""
         resultHeader3: "Resultados de monitoreo de descarga de agua"
         resultContent3: ""
+        resultLinkTitle: "Progreso del proyecto"
         resultLink: "Permisos ambientales y resultados de monitoreo"
     
 
@@ -176,63 +178,63 @@ education:
 services:
   enable : true
   es :
-    - title : "Junio ​​2019 - Diciembre 2019"
+    - title : "Julio 2019 - Enero 2020"
       icon : "ti-plug"
       content : "Instalación de equipos y electrodos."
       highlighted : true
 
-    - title : "Diciembre 2019 - Junio ​​2020"
+    - title : "Enero 2020 - Julio 2020"
       icon : "ti-stats-up"
       content : "Arranque y operación del sistema ERH"
       highlighted : false
 
-    - title : "Junio ​​2020 - Junio ​​2022"
+    - title : "Julio 2020 - Julio 2022"
       icon : "ti-stats-down"
       content : "Período de enfriamiento y monitoreo"
       highlighted : false
 
-    - title : "Julio 2022"
+    - title : "Agosto 2022"
       icon : "ti-control-stop"
       content : "Desmantelamiento"
       highlighted : false
   en :
-    - title : "June 2019 - December 2019"
+    - title : "July 2019 - January 2020"
       icon : "ti-plug"
       content : "Equipment and electrode installation"
       highlighted : true
 
-    - title : "December 2019 - June 2020"
+    - title : "January 2020 - July 2020"
       icon : "ti-stats-up"
       content : "ERH system startup and operation"
       highlighted : false
 
-    - title : "June 2020 - June 2022"
+    - title : "July 2020 - July 2022"
       icon : "ti-stats-down"
       content : "Cooldown and monitoring period"
       highlighted : false
 
-    - title : "July 2022"
+    - title : "August 2022"
       icon : "ti-control-stop"
       content : "Decomissioning"
       highlighted : false
       # service
   zh:
-  - title : "2019年6月至2019年12月"
+  - title : "2019年7月至2020年1月"
     icon : "ti-plug"
     content : "设备和电极安装"
     highlighted : true
 
-  - title : "2019年12月至2020年6月"
+  - title : "2020年1月至2020年7月"
     icon : "ti-stats-up"
     content : "ERH系统启动和运行"
     highlighted : false
 
-  - title : "2020年6月至2022年6月"
+  - title : "2020年7月至2022年7月"
     icon : "ti-stats-down"
     content : "冷却时间和监测期"
     highlighted : false
 
-  - title : "2022年7月"
+  - title : "2022年8月"
     icon : "ti-control-stop"
     content : "退役"
     highlighted : false
