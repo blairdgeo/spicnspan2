@@ -4,49 +4,16 @@ banner:
         title : "SPIC'N SPAN"
         subtitle: "Environmental Cleanup Project"
         resultsTitle: "Environmental Permits and Monitoring Results"
-        socialLinks:
-        - icon : "ti-facebook"
-          URL : "#"
-
-        - icon : "ti-instagram"
-          URL : "#"
-
-        - icon : "ti-dribbble"
-          URL : "#"
-
-        - icon : "ti-twitter"
-          URL : "#"
     zh:
         title : "SPIC'N SPAN"
         subtitle: "环境清理项目"
         resultsTitle: "环境许可证和监测结果"
-        socialLinks:
-        - icon : "ti-facebook"
-          URL : "#"
-
-        - icon : "ti-instagram"
-          URL : "#"
-
-        - icon : "ti-dribbble"
-          URL : "#"
-
-        - icon : "ti-twitter"
-          URL : "#"
     es:
         title : "SPIC'N SPAN"
         subtitle: "Proyecto de limpieza ambiental"
         resultsTitle: "Permisos ambientales y resultados de monitoreo"
         socialLinks:
         - icon : "ti-facebook"
-          URL : "#"
-
-        - icon : "ti-instagram"
-          URL : "#"
-
-        - icon : "ti-dribbble"
-          URL : "#"
-
-        - icon : "ti-twitter"
           URL : "#"
 
 projectDescription:
@@ -57,8 +24,8 @@ projectDescription:
         where: "Where is it?"
         backgroundTitle: "BACKGROUND AND PROPERTY HISTORY"
         backgroundContent: "Years of dry cleaner operation on the property have resulted in releases of contaminants including PCE (“perc”) and mineral spirits into the soil and groundwater beneath the building. The contaminants have migrated beneath the neighboring property to the north, which is currently a parking lot owned by KeyBank and, also to the south east into the Maynard Avenue South right-of-way."
-        timeline: "PROJECT TIMELINE"
-        projectContacts: "PROJECT CONTACTS"
+        timeline: "Project Timeline"
+        projectContacts: "Project Contacts"
         ecologyContact: "Washington State Department of Ecology, Toxics Cleanup Program"
         aspectContact: "Aspect Consulting, LLC, Jeremy Porter"
         trsContact1: "TRS, Jeremy Porter"

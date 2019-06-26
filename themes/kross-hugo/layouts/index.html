@@ -197,11 +197,11 @@
         </div>
          <div class="col-lg-12 text-center">
 		{{ if eq $.Site.LanguagePrefix "/zh" }}
-          <a class="section-title" style="font-size:18pt" href="/zh/about">{{ .Site.Data.homepage.projectDescription.zh.resultLink | safeHTML }} </a>
+          <a class="section-title" style="font-size:18pt" href="/about3">{{ .Site.Data.homepage.projectDescription.zh.resultLink | safeHTML }} </a>
 		{{ else if eq $.Site.LanguagePrefix "/es" }}
-          <a class="section-title" style="font-size: 18pt" href="/es/about">{{ .Site.Data.homepage.projectDescription.es.resultLink | safeHTML }} </a>
+          <a class="section-title" style="font-size: 18pt" href="/about2">{{ .Site.Data.homepage.projectDescription.es.resultLink | safeHTML }} </a>
 		  {{ else }} 
-          <a class="section-title" style="font-size: 18pt" href="/en/about">{{ .Site.Data.homepage.projectDescription.en.resultLink | safeHTML }} </a>
+          <a class="section-title" style="font-size: 18pt" href="/about">{{ .Site.Data.homepage.projectDescription.en.resultLink | safeHTML }} </a>
 		{{ end }}
 		
         </div>

@@ -4,7 +4,6 @@ title = "SPIC'N SPAN"
 theme = "kross-hugo"
 summaryLength = "10"
 DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
     title = "SPIC'N SPAN"
@@ -13,7 +12,7 @@ defaultContentLanguageInSubdir = true
   [languages.zh]
     title = "SPIC'N SPAN"
     languageName = "Mandarin"
-    weight = 2	
+    weight = 2
   [languages.es]
     title = "SPIC'N SPAN"
     languageName = "Spanish"
