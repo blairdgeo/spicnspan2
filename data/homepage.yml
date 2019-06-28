@@ -3,15 +3,15 @@ banner:
     en:
         title : "SPIC'N SPAN"
         subtitle: "Environmental Cleanup Project"
-        resultsTitle: "Environmental Permits and Monitoring Results"
+        resultsTitle: "Permits and Monitoring Results"
     zh:
         title : "SPIC'N SPAN"
         subtitle: "环境清理项目"
-        resultsTitle: "环境许可证和监测结果"
+        resultsTitle: "許可證和監測結果"
     es:
         title : "SPIC'N SPAN"
         subtitle: "Proyecto de limpieza ambiental"
-        resultsTitle: "Permisos ambientales y resultados de monitoreo"
+        resultsTitle: "Permisos y Resultados de Monitoreo"
         socialLinks:
         - icon : "ti-facebook"
           URL : "#"
@@ -33,13 +33,10 @@ projectDescription:
         emailText: "Email"
         scheduleNote: "Note: Schedule is approximate and will depend on monitoring results."
         resultHeader1: "Environmental Permits"
-        resultContent1: ""
         resultHeader2: "Air Monitoring Results"
-        resultContent2: ""
         resultHeader3: "Water Discharge Monitoring Results"
-        resultContent3: ""
         resultLinkTitle: "Project Progress"
-        resultLink: "Environmental Permits and Monitoring Results"
+        resultLink: "Permits and Monitoring Results"
         
     zh:
         title: "我们在做什么？"
@@ -56,13 +53,10 @@ projectDescription:
         emailText: "电子邮件"
         scheduleNote: "注意：时间表是近似值，取决于监测结果。"
         resultHeader1: "环境许可证"
-        resultContent1: ""
         resultHeader2: "空气监测结果"
-        resultContent2: ""
         resultHeader3: "排水监测结果"
-        resultContent3: ""
         resultLinkTitle: "项目进展"
-        resultLink: "环境许可证和监测结果"
+        resultLink: "許可證和監測結果"
     es:
         title: "¿Que estamos haciendo?"
         content: "El propósito del proyecto es limpiar el suelo contaminado y el agua subterránea en la propiedad Spic’n Span. La tecnología de calentamiento por resistencia eléctrica se utilizará para eliminar la contaminación del subsuelo, y la contaminación eliminada se tratará por encima del suelo. El monitoreo se llevará a cabo para garantizar que el sistema funcione de manera segura, que los contaminantes se traten de manera efectiva y que se logren los objetivos de limpieza del sitio."
@@ -78,13 +72,10 @@ projectDescription:
         emailText: "Email"
         scheduleNote: "Nota: El calendario es aproximado y dependerá de los resultados del monitoreo."
         resultHeader1: "Permisos ambientales"
-        resultContent1: ""
         resultHeader2: "Resultados del monitoreo del aire"
-        resultContent2: ""
         resultHeader3: "Resultados de monitoreo de descarga de agua"
-        resultContent3: ""
         resultLinkTitle: "Progreso del proyecto"
-        resultLink: "Permisos ambientales y resultados de monitoreo"
+        resultLink: "Permisos y Resultados de Monitoreo"
     
 
 # about
@@ -145,63 +136,63 @@ education:
 services:
   enable : true
   es :
-    - title : "Julio 2019 - Enero 2020"
+    - title : "Agosto 2019 - Febrero 2020"
       icon : "ti-plug"
       content : "Instalación de equipos y electrodos."
       highlighted : true
 
-    - title : "Enero 2020 - Julio 2020"
+    - title : "Febrero 2020 - Agosto 2020"
       icon : "ti-stats-up"
       content : "Arranque y operación del sistema ERH"
       highlighted : false
 
-    - title : "Julio 2020 - Julio 2022"
+    - title : "Agosto 2020 - Agosto 2022"
       icon : "ti-stats-down"
       content : "Período de enfriamiento y monitoreo"
       highlighted : false
 
-    - title : "Agosto 2022"
+    - title : "Septiembre 2022"
       icon : "ti-control-stop"
       content : "Desmantelamiento"
       highlighted : false
   en :
-    - title : "July 2019 - January 2020"
+    - title : "August 2019 - February 2020"
       icon : "ti-plug"
       content : "Equipment and electrode installation"
       highlighted : true
 
-    - title : "January 2020 - July 2020"
+    - title : "February 2020 - August 2020"
       icon : "ti-stats-up"
       content : "ERH system startup and operation"
       highlighted : false
 
-    - title : "July 2020 - July 2022"
+    - title : "August 2020 - August 2022"
       icon : "ti-stats-down"
       content : "Cooldown and monitoring period"
       highlighted : false
 
-    - title : "August 2022"
+    - title : "September 2022"
       icon : "ti-control-stop"
       content : "Decomissioning"
       highlighted : false
       # service
   zh:
-  - title : "2019年7月至2020年1月"
+  - title : "2019年8月至2020年2月"
     icon : "ti-plug"
     content : "设备和电极安装"
     highlighted : true
 
-  - title : "2020年1月至2020年7月"
+  - title : "2020年2月至2020年8月"
     icon : "ti-stats-up"
     content : "ERH系统启动和运行"
     highlighted : false
 
-  - title : "2020年7月至2022年7月"
+  - title : "2020年8月至2022年8月"
     icon : "ti-stats-down"
     content : "冷却时间和监测期"
     highlighted : false
 
-  - title : "2022年8月"
+  - title : "2022年9月"
     icon : "ti-control-stop"
     content : "退役"
     highlighted : false
