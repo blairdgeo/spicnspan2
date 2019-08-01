@@ -142,63 +142,63 @@ education:
 services:
   enable : true
   es :
-    - title : "Agosto 2019 - Febrero 2020"
+    - title : "Agosto 2019 - Diciembre 2020"
       icon : "ti-plug"
       content : "Instalación de equipos y electrodos."
       highlighted : true
 
-    - title : "Febrero 2020 - Agosto 2020"
+    - title : "Diciembre 2020 - Mayo 2020"
       icon : "ti-stats-up"
       content : "Arranque y operación del sistema ERH"
       highlighted : false
 
-    - title : "Agosto 2020 - Agosto 2022"
+    - title : "Mayo 2020 - Mayo 2022"
       icon : "ti-stats-down"
       content : "Período de enfriamiento y monitoreo"
       highlighted : false
 
-    - title : "Septiembre 2022"
+    - title : "Junio 2022"
       icon : "ti-control-stop"
       content : "Desmantelamiento"
       highlighted : false
   en :
-    - title : "August 2019 - February 2020"
+    - title : "August 2019 - December 2020"
       icon : "ti-plug"
       content : "Equipment and electrode installation"
       highlighted : true
 
-    - title : "February 2020 - August 2020"
+    - title : "December 2020 - May 2020"
       icon : "ti-stats-up"
       content : "ERH system startup and operation"
       highlighted : false
 
-    - title : "August 2020 - August 2022"
+    - title : "May 2020 - May 2022"
       icon : "ti-stats-down"
       content : "Cooldown and monitoring period"
       highlighted : false
 
-    - title : "September 2022"
+    - title : "June 2022"
       icon : "ti-control-stop"
       content : "Decomissioning"
       highlighted : false
       # service
   zh:
-  - title : "2019年8月至2020年2月"
+  - title : "2019年8月至2020年12月"
     icon : "ti-plug"
     content : "设备和电极安装"
     highlighted : true
 
-  - title : "2020年2月至2020年8月"
+  - title : "2020年12月至2020年5月"
     icon : "ti-stats-up"
     content : "ERH系统启动和运行"
     highlighted : false
 
-  - title : "2020年8月至2022年8月"
+  - title : "2020年5月至2022年5月"
     icon : "ti-stats-down"
     content : "冷却时间和监测期"
     highlighted : false
 
-  - title : "2022年9月"
+  - title : "2022年6月"
     icon : "ti-control-stop"
     content : "退役"
     highlighted : false
