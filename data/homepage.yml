@@ -142,65 +142,50 @@ education:
 services:
   enable : true
   es :
-    - title : "Agosto 2019 - Diciembre 2020"
-      icon : "ti-plug"
-      content : "Instalación de equipos y electrodos."
+    - title : "Julio 2021 - Diciembre 2021"
+      icon : "ti-stats-up"
+      content : "Inicio y operación"
       highlighted : true
 
-    - title : "Diciembre 2020 - Mayo 2020"
-      icon : "ti-stats-up"
-      content : "Arranque y operación del sistema ERH"
-      highlighted : false
-
-    - title : "Mayo 2020 - Mayo 2022"
+    - title : "Diciembre 2021 - Diciembre 2023"
       icon : "ti-stats-down"
-      content : "Período de enfriamiento y monitoreo"
+      content : "Enfriamiento"
       highlighted : false
 
-    - title : "Junio 2022"
+    - title : "Enero 2024"
       icon : "ti-control-stop"
-      content : "Desmantelamiento"
+      content : "Descomisión"
       highlighted : false
   en :
-    - title : "August 2019 - December 2020"
-      icon : "ti-plug"
-      content : "Equipment and electrode installation"
+    - title : "July 2021 - December 2021"
+      icon : "ti-stats-up"
+      content : "Startup and operation"
       highlighted : true
 
-    - title : "December 2020 - May 2020"
-      icon : "ti-stats-up"
-      content : "ERH system startup and operation"
-      highlighted : false
-
-    - title : "May 2020 - May 2022"
+    - title : "December 2021 - December 2023"
       icon : "ti-stats-down"
-      content : "Cooldown and monitoring period"
+      content : "Cooldown"
       highlighted : false
 
-    - title : "June 2022"
+    - title : "January 2024"
       icon : "ti-control-stop"
       content : "Decomissioning"
       highlighted : false
       # service
   zh:
-  - title : "2019年8月至2020年12月"
-    icon : "ti-plug"
-    content : "设备和电极安装"
-    highlighted : true
-
-  - title : "2020年12月至2020年5月"
+  - title : "2021年7月至2021年12月"
     icon : "ti-stats-up"
-    content : "ERH系统启动和运行"
-    highlighted : false
+    content : "启动和运营"
+    highlighted : true
 
   - title : "2020年5月至2022年5月"
     icon : "ti-stats-down"
     content : "冷却时间和监测期"
     highlighted : false
 
-  - title : "2022年6月"
+  - title : "2024 年 1 月"
     icon : "ti-control-stop"
-    content : "退役"
+    content : "取消"
     highlighted : false
     # service
 
@@ -208,13 +193,13 @@ projectContacts:
   enable : true
   item :
     - title : "May 2019 - November 2019 "
-      icon : "ti-plug"
-      content : "Equipment and Electrode Installation"
+      icon : "ti-stats-up"
+      content : "Startup and operation"
       highlighted : true
 
     - title : "November 2019 - May 2020"
       icon : "ti-stats-up"
-      content : "ERH System Startup and Operation"
+      content : "Cooldown"
       highlighted : false
 
     - title : "May 2020 - May 2022"
